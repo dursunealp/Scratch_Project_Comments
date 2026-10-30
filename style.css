@@ -1,0 +1,30 @@
+
+.scp-run-button {
+  display: block;
+  margin: 8px 0;
+  padding: 9px 15px;
+  background: #4c97ff;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.scp-run-button:hover {
+  background: #3378d1;
+}
+
+.scp-player {
+  margin-top: 8px;
+  max-width: 485px;
+}
+
+.scp-player iframe {
+  display: block;
+  width: 100%;
+  height: 402px;
+  border: 0;
+  border-radius: 8px;
+}
