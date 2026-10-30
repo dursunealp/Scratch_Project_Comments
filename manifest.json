@@ -1,0 +1,20 @@
+
+{
+  "manifest_version": 3,
+  "name": "Scratch Comment Player",
+  "version": "1.1.0",
+  "description": "Scratch yorumlarında proje oynatıcı.",
+  "host_permissions": [
+    "https://scratch.mit.edu/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://scratch.mit.edu/*"
+      ],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
